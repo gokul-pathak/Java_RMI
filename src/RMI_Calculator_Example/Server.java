@@ -1,4 +1,4 @@
-package Calculator_Example_API;
+package RMI_Calculator_Example;
 
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
