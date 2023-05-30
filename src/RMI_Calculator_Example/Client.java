@@ -12,7 +12,9 @@ public class Client {
         try {
             Registry reg = LocateRegistry.getRegistry("localhost", 1088);
             Adder a = (Adder) reg.lookup("server");
+            Subtract s = (Subtract) reg.lookup("server");
             System.out.println("Addition is: "+a.add(10,20));
+            System.out.println("Subtraction is: "+s.sub(90,75));
 
         }catch(Exception e){
             System.out.println(e);
