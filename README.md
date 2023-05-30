@@ -26,20 +26,25 @@ The project is organized into three packages: Calculator_Example_API, Inside thi
 3. Verify that the server and client are located in the same network or reachable from each other.
 
 
-## 2.0 RMI Java Calculator
+## 2.0 RMI Java Calculator 2
 This project demonstrates a simple calculator implemented using Java's Remote Method Invocation (RMI) framework. It allows clients to perform basic arithmetic operations remotely on a server.
 
 ### Features
 Addition: Add two numbers together.
+
 Subtraction: Subtract one number from another.
+
 Multiplication: Multiply two numbers.
+
 Division: Divide one number by another.
 
 ### How to Use
 Clone the repository: git clone <repository-url>
   
 Compile the Java files: javac *.java (Compile all files at once)
+  
 Start the server: java RMI_Calculator_Example2.CalculatorOpServer
+  
 Run the client: java RMI_Calculator_Example2.CalculatorOpClient
  
 ### Requirements
