@@ -7,7 +7,7 @@ public class CalculatorOpeClient {
     public static void main(String[] args) {
         try{
             //get the registry reference
-            Registry registry = LocateRegistry.getRegistry("localhost", 1099);
+            Registry registry = LocateRegistry.getRegistry("localhost", 8080);
 
             //lookup the calcutoroperation object
             CalculatorOperation calculatorOperation = (CalculatorOperation) registry.lookup("Calculator");
