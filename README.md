@@ -31,18 +31,25 @@ This project demonstrates a simple calculator implemented using Java's Remote Me
 
 ### Features
 Addition: Add two numbers together.
+
 Subtraction: Subtract one number from another.
+
 Multiplication: Multiply two numbers.
+
 Division: Divide one number by another.
 
 ### How to Use
 Clone the repository: git clone <repository-url>
+  
 Compile the Java files: javac *.java (Compile all files at once)
+  
 Start the server: java RMI_Calculator_Example2.CalculatorOpServer
+  
 Run the client: java RMI_Calculator_Example2.CalculatorOpClient
   
 ###Requirements
 Java Development Kit (JDK) 20.0.1
+  
 Java RMI
   
 ###Contributing
