@@ -1,4 +1,4 @@
-package RMI_Exercise;
+package RMI_Exercise_Prime_Checker;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 
