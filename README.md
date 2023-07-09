@@ -81,6 +81,8 @@ This RMI (Remote Method Invocation) project demonstrates a simple client-server 
  - The InsertData class demonstrates how to insert data into the "products" table. To insert new products, you can modify the main method as per your requirements.
  2. Retrieving Data
  - The mainf class demonstrates how to retrieve data from the "products" table. It retrieves all rows from the table and prints the id and name of each product.
+ 3. Deleteing Data
+   - 
   
  ### Contributing
 - Contributions are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or submit a pull request.
